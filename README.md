@@ -38,7 +38,7 @@ python find_by_hash.py
 
 ## 算法
 
-采用**中间相遇攻击（Meet-in-the-Middle）**算法，将后缀拆为两半：
+采用中间相遇攻击（Meet-in-the-Middle）算法，将后缀拆为两半：
 
 - 前半段：从 `prefix_hash` 正向计算所有可能的中间状态
 - 后半段：从 `target` 逆向推算所需的中间状态
