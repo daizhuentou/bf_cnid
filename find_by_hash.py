@@ -57,7 +57,7 @@ def find_string_by_hash(prefix: str, target_hash: str, max_suffix_len: int = 8) 
 
 
 if __name__ == "__main__":
-    prefix = "daizhuentou"
+    prefix = "daizhu"
     target_hash = "7D543A64"
     found_list = find_string_by_hash(prefix, target_hash)
     if found_list:
